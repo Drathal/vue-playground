@@ -1,0 +1,19 @@
+{
+  "name": "vue-playgound",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "Markus Dethlefsen <dethlefsen@cleverbridge.com>",
+  "private": true,
+  "dependencies": {
+    "ava": "^0.17.0",
+    "jsdom": "^9.8.3",
+    "nuxt": "latest"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "ava"
+  }
+}
